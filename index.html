@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--making the document so it can read in english-->
+
+<head>
+    <title>Carlies Cakes</title>
+    <!--making a title-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity=" sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--linking the bootstrap with the HTML-->
+    <link rel="stylesheet" type="text/css" href="mybootstrapcss.css">
+    <!--linking the CSS with the html--> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--linking the js to html-->
+
+    <script type="text/javascript" src="CAT.js"></script>
+  <!-- <script type="text/javascript" src="carts.js"></script> -->
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrtsuxRvU5hfr3a3Hfuk6qPHuIMYT41_mPHStX_51H1MTjEPpX" id="mainimg" class="img-thumbnail"><b>C@rlies Cakes</b></header>
+    <!--a image that displays right on tope of the page with the name of the store thats in the header-->
+    <nav id="mybar" align="center">
+        <!--calling the ID so i can make the changes in CSS-->
+        <a href="index.html"><b>Catalogue</b></a> 
+        <!--displaying the nav bar with its info inside-->
+        <!-- <a href="Cart.html"><b>Cart</b></a> -->
+    </nav>
+    </br>
+    <ul class="products">
+        <div class="container">
+            <!--making the columns so whatever you fill in it displays in rows an beneath each other-->
+            <div class="row">
+                <div class="col-sm-4">
+                    <!--sorting out the columns-->
+                
+                    <h3 class="centre">Birthday cakes</h3>
+                    <a href="https://assets.epicurious.com/photos/5940644fe5fb577a90d32fe8/1:1/w_775%2Cc_limit/CALSSIC-YELLOW-CAKE-with-chocolate-frosting-09062017.jpg" target="_blank">
+                        <!--whenever you click on the img it will enlarge in a new window-->
+                        <img src="https://assets.epicurious.com/photos/5940644fe5fb577a90d32fe8/1:1/w_775%2Cc_limit/CALSSIC-YELLOW-CAKE-with-chocolate-frosting-09062017.jpg" class="img-thumbnail" id="mypic"></a>
+                    <li>Special coated or customized cakes for parties</li>
+                    <span class="price">135</span>
+                    <a class="btn-add" href="" onclick="add1()">Add to Cart</a>
+                
+                    <!--This customise the button so it displays the color with whatever you want inside it -->
+                </div>
+                <div class="col-sm-4">
+                    <!--sorting out the columns-->
+                
+                    <h3 class="centre">Triple coated caramel cake.</h3>
+                    <a href="https://alwaysfoodie.com/wp-content/uploads/2012/08/creamy_cheese_cake_lgpvo.jpg" target="_blank">
+                        <!--whenever you click on the img it will enlarge in a new window-->
+                        <img src="https://alwaysfoodie.com/wp-content/uploads/2012/08/creamy_cheese_cake_lgpvo.jpg" class="img-thumbnail"></a>
+                    <li>Any type of layer , with lightly or heavy caramel</li>
+                    <span class="price">250</span>
+                    <a class="btn-add" href="" onclick="add2()">Add to Cart</a>
+                    <!--This customise the button so it displays the color with whatever you want inside it -->
+        
+                </div>
+                <div class="col-sm-4">
+                    <!--sorting out the columns-->
+                
+                    <h3 class="centre">Spongy block cake</h3>
+                    <a href="http://www.winni.in/celebrate-relations/wp-content/uploads/2018/06/sponge-cake.jpg" target="_blank">
+                        <!--whenever you click on the img it will enlarge in a new window-->
+                        <img src="http://www.winni.in/celebrate-relations/wp-content/uploads/2018/06/sponge-cake.jpg" class="img-thumbnail"></a>
+                    <li>Spongy block cake has a nice soft grundge to the tongue</li>
+                    <span class="price">35</span>
+                    <a class="btn-add" href="" onclick="add3()">Add to Cart</a>
+                    <!--This customise the button so it displays the color with whatever you want inside it -->
+        
+                </div>
+                <div class="col-sm-4">
+                    <!--sorting out the columns-->
+                    <h3 class="centre">Cake Tutorials</h3>
+                    <a href="https://netstorage-legit.akamaized.net/images/fe4785320896011b.jpg?imwidth=900" target="_blank">
+                        <!--whenever you click on the img it will enlarge in a new window-->
+                        <img src="https://netstorage-legit.akamaized.net/images/fe4785320896011b.jpg?imwidth=900" class="img-thumbnail"></a>
+                    <li>Cake tutorial classes every Monday and Tuesday from 9am-14pm.</li>
+                    <span class="price">305</span>
+                    <a class="btn-add" href="" onclick="add4()">Add to Cart</a>
+                    <!--This customise the button so it displays the color with whatever you want inside it -->
+                </div>
+                <div class="col-sm-4">
+                    <!--sorting out the columns-->
+                    <h3 class="centre">Red velvet</h3>
+                    <a href="http://www.farmflavor.com/wp-content/uploads/2012/10/1650712JSO4418-FFcrop.jpg" target="_blank">
+                        <!--whenever you click on the img it will enlarge in a new window-->
+                        <img src="http://www.farmflavor.com/wp-content/uploads/2012/10/1650712JSO4418-FFcrop.jpg" class="img-thumbnail" id="pic2"></a>
+                        <br>
+                    <li>Red velvet cake with a icy cream coating.</li>
+                    THIS IS ON SPECIAL<span class="price">115</span>
+                    <a class="btn-add" href="" onclick="add5()">Add to Cart</a>
+                    <!--This customise the button so it displays the color with whatever you want inside it -->
+                </div>
+                <div class="col-sm-4">
+                    <!--sorting out the columns-->
+                    <h3 class="centre">Tarts</h3>
+                    <a href="http://justdelhiing.com/wp-content/uploads/2017/03/ChocolateGanacheTart-1024x680-e1489862897109.jpg" target="_blank">
+                        <!--whenever you click on the img it will enlarge in a new window-->
+                        <img src="http://justdelhiing.com/wp-content/uploads/2017/03/ChocolateGanacheTart-1024x680-e1489862897109.jpg" class="img-thumbnail"></a>
+                        <br>
+                    <li>Coco Mouse with a biscuit crust.</li>
+                    THIS IS ON SPECIAl<span class="price">75</span>
+                    <a class="btn-add" href="" onclick="add6()">Add to Cart</a>
+                </div>
+                <div class="col-sm-4">
+                    <!--sorting out the columns-->
+                    <h3 class="centre">Dark Choc cakes</h3>
+                    <a href="http://justdelhiing.com/wp-content/uploads/2017/03/mud-cake1-e1489862527275.jpg" target="_blank">
+                        <!--whenever you click on the img it will enlarge in a new window-->
+                        <img src="http://justdelhiing.com/wp-content/uploads/2017/03/mud-cake1-e1489862527275.jpg" class="img-thumbnail"></a>
+                    <li>Dark chocolate with a Lindt covering.</li>
+                    <span class="price">100</span>
+                    <a class="btn-add" href="" onclick="add7()">Add to Cart</a>
+                </div>
+                <div class="col-sm-4">
+                    <!--sorting out the columns-->
+                    <h3 class="centre">Blueberry Cake</h3>
+                    <a href="https://food-of-dream.com/content/2/2988/efc4e24807d38d565b3688fdabe02ce9.jpg" target="_blank">
+                        <!--whenever you click on the img it will enlarge in a new window-->
+                        <img src="https://food-of-dream.com/content/2/2988/efc4e24807d38d565b3688fdabe02ce9.jpg" class="img-thumbnail"></a>
+                    <li>Blueberry cake with layers and a ice-cream coating.</li>
+                    <span class="price">165</span>
+                    <a class="btn-add" href="" onclick="add8()">Add to Cart</a>
+                </div>
+                <div class="col-sm-4">
+                    <!--sorting out the columns-->
+                    <h3 class="centre">Crusty Tart</h3>
+                    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRarqZFDcXYyMJ7pfzME-PXgZ1Dbmy_wFI3V5WT5M-9bGT9eQlU" target="_blank">
+                        <!--whenever you click on the img it will enlarge in a new window-->
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRarqZFDcXYyMJ7pfzME-PXgZ1Dbmy_wFI3V5WT5M-9bGT9eQlU" class="img-thumbnail"></a>
+                    <li>A crusty tart with a icy lava cream and strawberries.</li>
+                    <span class="price">93</span>
+                    <a class="btn-add" href="" onclick="add9()">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        
+        <h4>Note:</h4>
+        <!--making a heading in a smaller font-->
+        <p><b>Thumbnail</b>-the .img-thumbnail class shapes the image to a thumbnail</p>
+        <p><b>Responsive img</b>-whenever you click on the image it will enlarge it in the browser</p>
+        <!--my own info what i understand of what is being asked-->
+
+        <div id="shopping-cart">    <!--This displays the seperate cart an adds the cake prices together-->
+            <div id="info">
+                <span id="itens"><strong>0</strong></span>
+                <span>Cakes</span> |
+                <span id="total">Total: R <strong>0</strong></span>
+            </div>
+            <div class='lista'>
+                <ul>
+                    <li class='empty'>Items will be displayed here</li>
+                </ul>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+</body>
+
+<!--close the body-->
+
+</html>

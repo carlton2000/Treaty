@@ -1,0 +1,158 @@
+body{
+	background: pink    /*making the background pink*/
+}
+#mainimg{
+  height: 200px;     /*customizing the image and fitting it to the page*/
+  width: 25%;
+}
+
+#mybar{      /*calling the bar with its special name and changing the color of the wording*/           
+	background: black     
+	padding:3px;
+}
+
+#mybar:hover{         /*This makes whenever you hover over the bar it changes color an makes the wording bolder*/
+	border: 3px solid black; /*making a border around the nav bar*/    
+    text-align: center;    /*centering the bar*/
+    color: #ffffff;
+}
+nav a{                /*calling only what is answered an making changes in them*/
+	text-decoration: none;
+	color: black;       /*changing the color*/
+	display: inline-block;     
+	margin: 0 20px;             /*spacing the wording from each other*/
+}
+table, th, td:hover{     /*making the whole table hovered*/
+  border: 1px solid black;  /*making borders around the words*/
+  border-radius: 6px;        /*customizing the border with rounded edges*/ 
+  -moz-border-radius: 6px;
+  border-collapse: separate;
+}
+.img-thumbnail{   /*calling the class so it makes the changes only what is asked*/
+	border-radius: 50%;   /*makes the images all round*/
+}
+
+#mypic{
+	width: 280px;      /*sizing the picture inditually*/
+	height: 150px
+
+}
+.price1{               
+	color: grey;       
+	font-size: 22px;
+	text-align: center;   /*coloring the prices thats displaying*/
+}
+.col-sm-4{
+	text-align: center;           /*centering the columns*/
+}
+#pic2{
+	width: 280px;
+	height: 150px;                 /*sizing the images */
+}
+.img-thumbnail{
+	width: 240px;
+}
+  h3{
+      font-size: 15px;
+      color: #518E8E;
+      margin:0 0 5px 0;
+    }                                   /*making that specific heading a color*/
+
+     a.btn-add{
+      display:block;
+      margin: 10px 40px 0;
+      padding:5px;
+      color: #fff;
+      text-decoration:none;
+      border-radius:4px;
+      background: orange;
+      }                                  /*making the buttons a different color and sizing it*/
+
+span.price{
+      font-size: 16px;
+      color: #ffffff;
+      text-align:center;
+    }
+
+div#shopping-cart{
+  position: absolute;
+  top:10px;
+  right:10px;
+  width: 250px;
+  overflow: hidden;
+  padding: 5px 10px 10px;
+  border-radius: 4px;
+  background: #665B7A;
+}                                /*designing the shopping cart so it can displays and stands out from the rest*/
+
+  #info{
+    width:215px;
+    padding: 5px 0 10px;
+    color: #ffffff;
+    z-index:9;
+}
+    a.btn-limpar-car{
+      display:block;
+      width:18px;
+      height:18px;
+      float:right;
+      text-indent:-99px;
+      overflow:hidden;
+      color: #518E8E;
+  }
+div.lista{
+      width: 250px;
+      max-height: 180px;
+      overflow: auto;
+    }
+span.name{
+ display:block;
+  margin-top: 5px;
+  color: #518E8E;
+  }
+span.price{
+  display:block;
+   margin-top: 5px;
+  }
+.btn-close{
+    position:absolute;
+    bottom:5px;
+    right:5px;
+    display:block;
+    width: 14px;
+     height: 14px;    
+ } 
+.button{
+  position: absolute;
+  bottom: -140%;
+  left: 50%;
+  transform: translate(-50%,-50%);         /*positioning the img*/
+}
+.btn{
+  border: 1px solid #000;
+  padding: 5px 10px;
+}
+button{
+      display:block;
+      margin: 10px 40px 0;
+      padding:5px;
+      color: #fff;
+      text-decoration:none;
+      border-radius:4px;
+      background: orange;
+      align-content: center;
+}
+  
+#cen{
+  text-align: center;                 /*centering the info*/
+}
+
+#aa{
+  margin: auto;            /*centering the info*/
+}
+#bb{
+  text-align: center;          /*centering the info*/
+}
+.ter{
+  text-align: center;
+}           /*centering the buttons*/
